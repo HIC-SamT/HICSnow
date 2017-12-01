@@ -22,7 +22,7 @@ function Snowy() {
   function go(){
     window.requestAnimationFrame(go);
       $.clearRect(0, 0, w, h);
-      $.fillStyle = 'hsla(242, 95%, 3%, 1)';
+      $.fillStyle = 'hsla(242, 95%, 3%, 0)';
       $.fillRect(0, 0, w, h);
       $.fill();
         for (var i = 0; i < arr.length; ++i) {
